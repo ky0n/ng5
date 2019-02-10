@@ -1,0 +1,3 @@
+match /unifiedcars/{unifiedcarsID} {
+	allow read, write: if true;
+}
